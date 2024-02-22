@@ -15,7 +15,7 @@ import {
   nodejs,
   pricewise,
   react,
-  
+  vercel,
   snapgram,
   summiz,
   tailwindcss,
@@ -88,6 +88,11 @@ export const skills = [
   {
     imageUrl: vite,
     name: "Vite",
+    type: "Frontend",
+  },
+  {
+    imageUrl: vercel,
+    name: "Vercel",
     type: "Frontend",
   },
 ];

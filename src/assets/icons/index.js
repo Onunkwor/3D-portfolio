@@ -25,6 +25,7 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import firebase from "./firebase.svg";
+import vercel from "./vercel.svg";
 export {
   css,
   express,
@@ -53,4 +54,5 @@ export {
   soundon,
   soundoff,
   firebase,
+  vercel
 };
