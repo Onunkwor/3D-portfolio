@@ -22,6 +22,7 @@ import {
   threads,
   typescript,
   firebase,
+  ticket,
 } from "../assets/icons";
 
 export const skills = [
@@ -152,51 +153,46 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: ticket,
     theme: "btn-back-red",
-    name: "Upcoming",
+    name: "Evently",
     description:
-      "Null",
-    link: "https://github.com/onunkwor",
+      "A dynamic ticket-buying application crafted for seamless user experiences. Leveraging Clerk for authentication and Stripe for secure payments, this platform ensures a smooth and trustworthy transaction process. Powered by MongoDB on the backend and deployed with Vercel, it offers a robust, scalable solution for event organizers and attendees alike",
+    link: "https://evently-ticket-app.vercel.app",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
     name: "Upcoming",
-    description:
-      "Null",
+    description: "Null",
     link: "https://github.com/onunkwor",
   },
   {
     iconUrl: car,
     theme: "btn-back-blue",
     name: "Upcoming",
-    description:
-    "Null",
-  link: "https://github.com/onunkwor",
+    description: "Null",
+    link: "https://github.com/onunkwor",
   },
   {
     iconUrl: snapgram,
     theme: "btn-back-pink",
     name: "Upcoming",
-    description:
-    "Null",
-  link: "https://github.com/onunkwor",
+    description: "Null",
+    link: "https://github.com/onunkwor",
   },
   {
     iconUrl: estate,
     theme: "btn-back-black",
     name: "Upcoming",
-    description:
-      "Null",
+    description: "Null",
     link: "https://github.com/onunkwor",
   },
   {
     iconUrl: summiz,
     theme: "btn-back-yellow",
     name: "Upcoming",
-    description:
-      "Null",
+    description: "Null",
     link: "https://github.com/onunkwor",
-  }
+  },
 ];

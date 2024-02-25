@@ -26,6 +26,7 @@ import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import firebase from "./firebase.svg";
 import vercel from "./vercel.svg";
+import ticket from "./ticket.png";
 export {
   css,
   express,
@@ -54,5 +55,6 @@ export {
   soundon,
   soundoff,
   firebase,
-  vercel
+  vercel,
+  ticket,
 };
