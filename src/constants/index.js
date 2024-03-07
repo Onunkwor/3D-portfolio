@@ -161,11 +161,12 @@ export const projects = [
     link: "https://evently-ticket-app.vercel.app",
   },
   {
-    iconUrl: threads,
+    iconUrl: pricewise,
     theme: "btn-back-green",
-    name: "Upcoming",
-    description: "Null",
-    link: "https://github.com/onunkwor",
+    name: "PaySpy",
+    description:
+      "This project is an Amazon web scraping application built using technologies such as BrightData, cron jobs, MongoDB, and Next.js. The app monitors product prices and sends email notifications to users when there are drops in prices or updated discounts on Amazon products. With automated price tracking and personalized notifications, users can stay informed about the best deals and save money on their favorite products.",
+    link: "https://pricespycron.vercel.app",
   },
   {
     iconUrl: car,
