@@ -169,15 +169,16 @@ export const projects = [
     link: "https://pricespycron.vercel.app",
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Upcoming",
-    description: "Null",
-    link: "https://github.com/onunkwor",
-  },
-  {
     iconUrl: snapgram,
     theme: "btn-back-pink",
+    name: "Snapgram",
+    description:
+      "SnapGram is a dynamic social media application designed as a learning project to explore MongoDB, Mongoose, Express.js, TypeScript, and other technologies. With user authentication provided by Clerk, SnapGram enables users to securely log in and immerse themselves in a world of visual storytelling. Users can effortlessly share their moments through images accompanied by captions, follow other users to stay updated with their posts, and explore a rich tapestry of content curated by the vibrant SnapGram community.",
+    link: "https://snapgramapp.vercel.app",
+  },
+  {
+    iconUrl: car,
+    theme: "btn-back-blue",
     name: "Upcoming",
     description: "Null",
     link: "https://github.com/onunkwor",
