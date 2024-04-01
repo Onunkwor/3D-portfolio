@@ -5,6 +5,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { skills, experiences } from "../constants";
 import CTA from "../components/CTA";
+import PDF from "../assets/01Onunkwor.pdf";
+
 const About = () => {
   return (
     <section className="max-container">
@@ -40,6 +42,12 @@ const About = () => {
         </div>
       </div>
 
+      {/* Download CV section */}
+      <div className="py-8 btn !w-fit">
+        <a href={PDF} download className="btn-primary mt-2">
+          Download CV
+        </a>
+      </div>
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
