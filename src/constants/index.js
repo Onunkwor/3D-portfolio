@@ -19,7 +19,7 @@ import {
   snapgram,
   summiz,
   tailwindcss,
-  threads,
+  yoom,
   typescript,
   firebase,
   ticket,
@@ -177,11 +177,12 @@ export const projects = [
     link: "https://snapgramapp.vercel.app",
   },
   {
-    iconUrl: car,
+    iconUrl: yoom,
     theme: "btn-back-blue",
-    name: "Upcoming",
-    description: "Null",
-    link: "https://github.com/onunkwor",
+    name: "Zoom Clone",
+    description:
+      "Experience seamless video conferencing with this Zoom clone built using Next.js, Clerk for authentication, and the Stream SDK for real-time communication. Enjoy high-quality video calls, instant meetings, and easy access to recordings in a secure and user-friendly environment. Whether you're collaborating with colleagues or connecting with friends, this Zoom clone provides the tools you need for efficient communication and collaboration.",
+    link: "https://yoomvideo.vercel.app",
   },
   {
     iconUrl: estate,

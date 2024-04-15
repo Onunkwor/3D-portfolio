@@ -27,6 +27,7 @@ import soundoff from "./soundoff.png";
 import firebase from "./firebase.svg";
 import vercel from "./vercel.svg";
 import ticket from "./ticket.png";
+import yoom from "./yoom.svg";
 export {
   css,
   express,
@@ -57,4 +58,5 @@ export {
   firebase,
   vercel,
   ticket,
+  yoom,
 };
