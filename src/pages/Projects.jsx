@@ -16,13 +16,21 @@ const Projects = () => {
           I've embarked on numerous projects throughout the years, but these are
           the ones I hold closest to my heart. Many of them are open-source, so
           if you come across something that piques your interest, feel free to
-          explore the codebase and contribute your ideas for further
-          enhancements. Your collaboration is highly valued!
+          explore the{" "}
+          <Link
+            to="https://github.com/Onunkwor"
+            target="_blank"
+            className="text-blue-600 font-semibold"
+          >
+            <span>codebase</span>
+          </Link>{" "}
+          and contribute your ideas for further enhancements. Your collaboration
+          is highly valued!
         </p>
       </div>
 
       <div className="flex flex-wrap my-20 gap-16">
-        {projects.map((project,index) => (
+        {projects.map((project, index) => (
           <div className="lg:w-[400px] w-full" key={index}>
             <div className="block-container w-12 h-12">
               <div className={`btn-back rounded-xl ${project.theme}`} />
