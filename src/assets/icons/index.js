@@ -28,6 +28,7 @@ import firebase from "./firebase.svg";
 import vercel from "./vercel.svg";
 import ticket from "./ticket.png";
 import yoom from "./yoom.svg";
+import loader from "./loader.svg";
 export {
   css,
   express,
@@ -59,4 +60,5 @@ export {
   vercel,
   ticket,
   yoom,
+  loader,
 };

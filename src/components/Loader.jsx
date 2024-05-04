@@ -1,9 +1,12 @@
 import { Html } from "@react-three/drei";
+import { loader } from "../assets/icons";
 const Loader = () => {
   return (
     <Html>
-      <div className="flex justify-center items-center w-full h-full">
-        <div className="w-20 h-20 border-2 border-opacity-20 border-blue-500 border-t-blue-500 rounded-full animate-spin "></div>
+      <div className="flex justify-center items-center">
+        <div className="w-20 h-20">
+          <img src={loader} alt="loader" className="animate-spin z-[88]" />
+        </div>
       </div>
     </Html>
   );
